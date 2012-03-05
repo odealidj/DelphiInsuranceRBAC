@@ -1,0 +1,18 @@
+# User specified ignores
+src/Data/uDataConnection.pas
+src/Data/uDataConnection.dfm
+config.ini
+bin/config.ini
+init_db.ps1
+database/init_db.ps1
+docs/
+
+# Delphi build outputs & temporary files
+bin/*.exe
+bin/dcu/
+*.dcu
+*.~*
+*.dsk
+*.identcache
+*.stat
+*.local
